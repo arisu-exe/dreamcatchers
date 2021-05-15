@@ -1,0 +1,20 @@
+{
+  "music.nightmare" : {
+    "category" : "music",
+    "sounds" : [
+      {
+        "name" : "dreamcatchers:music/nightmare",
+        "stream" : "true"
+      }
+    ]
+  },
+  "music.sky" : {
+    "category" : "music",
+    "sounds" : [
+      {
+        "name" : "dreamcatchers:music/sky",
+        "stream" : "true"
+      }
+    ]
+  }
+}

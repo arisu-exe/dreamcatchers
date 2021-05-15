@@ -1,0 +1,8 @@
+{
+  "variants" : {
+    "facing=north" : { "model": "dreamcatchers:block/fortuitous_dreamcatcher" },
+    "facing=east" :  { "model": "dreamcatchers:block/fortuitous_dreamcatcher", "y": 90 },
+    "facing=south" : { "model": "dreamcatchers:block/fortuitous_dreamcatcher", "y": 180 },
+    "facing=west" :  { "model": "dreamcatchers:block/fortuitous_dreamcatcher", "y": 270 }
+  }
+}

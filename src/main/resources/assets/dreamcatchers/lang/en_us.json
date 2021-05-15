@@ -1,0 +1,22 @@
+{
+  "block.minecraft.bed.cloudy_dreamcatcher" : "Sleeping in your comfy bed feels like lying on clouds--and suddenly, you are",
+  "block.minecraft.bed.colorful_dreamcatcher" : "Dreams of color seep into your head, and you feel like not a thing can hurt you",
+  "block.minecraft.bed.nightmarish_dreamcatcher" : "You shudder in your sleep. When you open your eyes you see endless darkness",
+
+  "block.dreamcatchers.gault" : "Gault",
+  "block.dreamcatchers.cloud" : "Cloud",
+
+  "block.dreamcatchers.chaotic_dreamcatcher" : "Chaotic Dreamcatcher",
+  "block.dreamcatchers.cloudy_dreamcatcher" : "Cloudy Dreamcatcher",
+  "block.dreamcatchers.colorful_dreamcatcher" : "Colorful Dreamcatcher",
+  "block.dreamcatchers.fortuitous_dreamcatcher" : "Fortuitous Dreamcatcher",
+  "block.dreamcatchers.lucky_dreamcatcher" : "Lucky Dreamcatcher",
+  "block.dreamcatchers.mischievous_dreamcatcher" : "Mischievous Dreamcatcher",
+  "block.dreamcatchers.nightmarish_dreamcatcher" : "Nightmarish Dreamcatcher",
+  "block.dreamcatchers.rejuvenating_dreamcatcher" : "Rejuvenating Dreamcatcher",
+
+
+
+  "advancements.dreamcatchers.root.title" : "Dreams",
+  "advancements.dreamcatchers.root.description" : "Your one portal to anything... including nightmares"
+}

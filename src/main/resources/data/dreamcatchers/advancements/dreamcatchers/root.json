@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "advancements.dreamcatchers.root.title"
+    },
+    "description": {
+      "translate": "advancements.dreamcatchers.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "dreamcatchers:textures/gui/advancements/backgrounds/dreamcatchers.png"
+  },
+  "criteria": {
+    "entered_nightmare": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "dreamcatchers:nightmare"
+      }
+    },
+    "entered_sky": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "dreamcatchers:sky"
+      }
+    },
+    "entered_rainbow": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "dreamcatchers:rainbow"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_nightmare",
+      "entered_sky",
+      "entered_rainbow"
+    ]
+  ]
+}

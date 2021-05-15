@@ -1,0 +1,28 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]] #mandatory
+modId="dreamcatchers" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Dreamcatchers" #mandatory
+updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+logoFile="dreamcatchers.png" #optional
+credits="My friends, forge guys, people who makes tutorials, Derek Sturm 263 etc." #optional
+authors="fallOut015" #optional
+description='''
+Adds various dreamcatchers that enhance gameplay.
+'''
+[[dependencies.dreamcatchers]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dreamcatchers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
