@@ -5,6 +5,7 @@ import io.github.fallOut015.dreamcatchers.block.DreamcatcherBlock;
 import io.github.fallOut015.dreamcatchers.client.renderer.RenderTypeLookupDreamcatchers;
 import io.github.fallOut015.dreamcatchers.item.ItemsDreamcatchers;
 import io.github.fallOut015.dreamcatchers.util.SoundEventsDreamcatchers;
+import io.github.fallOut015.dreamcatchers.world.gen.surfacebuilders.SurfaceBuildersDreamcatchers;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.PlayerWakeUpEvent;
@@ -32,6 +33,7 @@ public class MainDreamcatchers {
         BlocksDreamcatchers.register(FMLJavaModLoadingContext.get().getModEventBus());
         ItemsDreamcatchers.register(FMLJavaModLoadingContext.get().getModEventBus());
         SoundEventsDreamcatchers.register(FMLJavaModLoadingContext.get().getModEventBus());
+        SurfaceBuildersDreamcatchers.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void setup(final FMLCommonSetupEvent event) {
